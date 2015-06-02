@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvMarkerNameLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/NameLable"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvMarkerNameValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMarkerNameLable"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvMarkerDesciptionLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMarkerNameValue"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/DescriptionLable"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvMarkerDesciptionValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMarkerDesciptionLable"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvMarkerLatLngLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LocationLable"
+        android:layout_below="@+id/tvMarkerDesciptionValue"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvMarkerLatLngValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMarkerLatLngLable"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tvMarkerLatLngValue"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:text="@string/EmailLable" 
+        android:onClick="onEmailClick"/>
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMarkerLatLngValue"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/SMSLable" 
+        android:onClick="onSMSClick" />
+
+</RelativeLayout>

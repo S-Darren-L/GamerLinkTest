@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvMarkerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterName"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etMarkerName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EnterText"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/evMarkerDesciption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterDescription"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etMarkerDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EnterText"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/evMarkerLatLngLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/evMarkerLatLngValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+</LinearLayout>

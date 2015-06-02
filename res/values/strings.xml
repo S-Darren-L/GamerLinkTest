@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GamerLinkTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_saved_locations">SavedLocations</string>
+    <string name="title_activity_share_location">ShareLocation</string>
+    <string name="SearchLable">Search: </string>
+    <string name="NameLable">Name: </string>
+    <string name="DescriptionLable">Description: </string>
+    <string name="LocationLable">Latitude and Longitude: </string>
+    <string name="Location">Latitude and Longitude</string>
+    <string name="EmailLable">Email</string>
+    <string name="SMSLable">SMS</string>
+    <string name="EnterName">Enter Name: </string>
+    <string name="EnterDescription">EnterD escription</string>
+    <string name="EnterText">Enter text here..</string>
+
+</resources>

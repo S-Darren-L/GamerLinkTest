@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GamerLinkTest</string>
+    <string name="hello_world">你好！</string>
+    <string name="title_activity_saved_locations">储存的地址</string>
+    <string name="title_activity_share_location">分享的地址</string>
+    <string name="SearchLable">查找: </string>
+    <string name="NameLable">名字: </string>
+    <string name="DescriptionLable">描述: </string>
+    <string name="LocationLable">经纬度: </string>
+    <string name="Location">经纬度</string>
+    <string name="EmailLable">邮件</string>
+    <string name="SMSLable">信息</string>
+    <string name="EnterName">输入名字: </string>
+    <string name="EnterDescription">输入描述</string>
+    <string name="EnterText">在此输入..</string>
+
+</resources>
